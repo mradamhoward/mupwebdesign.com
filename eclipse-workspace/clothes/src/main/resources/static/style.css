@@ -1,0 +1,9 @@
+.top-buffer { margin-top: 140px; }
+.sep { margin-top: 20px; }
+
+.full{ width: 100%, height: 100%; }
+
+.item{
+	width: 100%;
+	height: 200px;
+}

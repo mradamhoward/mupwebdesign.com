@@ -1,0 +1,165 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+   <!-- A simple bean definition -->
+   <bean id = "user" class = "com.clothes.models.User">
+       
+   </bean>
+   
+   <bean id = "product" class = "com.clothes.models.Product">
+    
+   </bean>
+    <bean id = "product1" class = "com.clothes.models.Product">
+    	<property name="id" value="1"></property>
+    	<property name="name" value="Sweater"></property>
+    	<property name="price" value="1"></property>
+    	<property name="image" value="men1.jpg"></property>
+    	<property name="desc" value="Lovely jumper"></property>
+   </bean>
+   <bean id = "product2" class = "com.clothes.models.Product">
+    	<property name="id" value="2"></property>
+    	<property name="name" value="Jumper"></property>
+    	<property name="price" value="100"></property>
+    	<property name="image" value="men2.jpg"></property>
+    	<property name="desc" value="Warm"></property>
+   </bean>
+   <bean id = "product3" class = "com.clothes.models.Product">
+    	<property name="id" value="3"></property>
+    	<property name="name" value="Sweater"></property>
+    	<property name="price" value="10"></property>
+    	<property name="image" value="men3.jpg"></property>
+    	<property name="desc" value="Cozy jumper"></property>
+   </bean>
+   <bean id = "product4" class = "com.clothes.models.Product">
+    	<property name="id" value="4"></property>
+    	<property name="name" value="Jacket"></property>
+    	<property name="price" value="22"></property>
+    	<property name="image" value="men4.jpg"></property>
+    	<property name="desc" value="Hot jumper"></property>
+   </bean>
+   <bean id = "product5" class = "com.clothes.models.Product">
+    	<property name="id" value="5"></property>
+    	<property name="name" value="Suit"></property>
+    	<property name="price" value="50"></property>
+    	<property name="image" value="men5.jpg"></property>
+    	<property name="desc" value="Business"></property>
+   </bean>
+   <bean id = "product6" class = "com.clothes.models.Product">
+    	<property name="id" value="6"></property>
+    	<property name="name" value="North Face"></property>
+    	<property name="price" value="39"></property>
+    	<property name="image" value="men6.jpg"></property>
+    	<property name="desc" value="hiking"></property>
+   </bean>
+   <bean id = "product7" class = "com.clothes.models.Product">
+    	<property name="id" value="7"></property>
+    	<property name="name" value="North Face"></property>
+    	<property name="price" value="33"></property>
+    	<property name="image" value="women8.jpg"></property>
+    	<property name="desc" value="hiking"></property>
+   </bean>
+   <bean id = "product8" class = "com.clothes.models.Product">
+    	<property name="id" value="8"></property>
+    	<property name="name" value="North Face"></property>
+    	<property name="price" value="910"></property>
+    	<property name="image" value="women6.jpg"></property>
+    	<property name="desc" value="outdoor"></property>
+   </bean>
+   <bean id = "product9" class = "com.clothes.models.Product">
+    	<property name="id" value="9"></property>
+    	<property name="name" value="North Face"></property>
+    	<property name="price" value="720"></property>
+    	<property name="image" value="women6.jpg"></property>
+    	<property name="desc" value="best"></property>
+   </bean>
+   <bean id = "product10" class = "com.clothes.models.Product">
+    	<property name="id" value="10"></property>
+    	<property name="name" value="North Face"></property>
+    	<property name="price" value="420"></property>
+    	<property name="image" value="women5.jpg"></property>
+    	<property name="desc" value="hiking"></property>
+   </bean>
+   <bean id = "product11" class = "com.clothes.models.Product">
+    	<property name="id" value="11"></property>
+    	<property name="name" value="Dress"></property>
+    	<property name="price" value="120"></property>
+    	<property name="image" value="women4.jpg"></property>
+    	<property name="desc" value="warm"></property>
+   </bean>
+   <bean id = "product12" class = "com.clothes.models.Product">
+    	<property name="id" value="12"></property>
+    	<property name="name" value="Glam"></property>
+    	<property name="price" value="30"></property>
+    	<property name="image" value="women3.jpg"></property>
+    	<property name="desc" value="style"></property>
+   </bean>
+   <bean id = "product13" class = "com.clothes.models.Product">
+    	<property name="id" value="13"></property>
+    	<property name="name" value="Fab"></property>
+    	<property name="price" value="301"></property>
+    	<property name="image" value="womens2.jpg"></property>
+    	<property name="desc" value="hiking"></property>
+   </bean>
+   <bean id = "product14" class = "com.clothes.models.Product">
+    	<property name="id" value="14"></property>
+    	<property name="name" value="style"></property>
+    	<property name="price" value="20"></property>
+    	<property name="image" value="womens1.jpg"></property>
+    	<property name="desc" value="quality"></property>
+   </bean>
+    <bean id = "product15" class = "com.clothes.models.Product">
+      <constructor-arg index="0" value = "15"/>
+      <constructor-arg index="1" value = "Top "/>
+      <constructor-arg index="2" value = "Affordable"/>
+     <constructor-arg index="3" value = "kid1.jpg"/>
+      <constructor-arg index="4" value = "601"/>
+   </bean>
+    <bean id = "product16" class = "com.clothes.models.Product">
+      <constructor-arg index="0" value = "16"/>
+      <constructor-arg index="1" value = "Zara"/>
+      <constructor-arg index="2" value = "Quality"/>
+     <constructor-arg index="3" value = "kid2.jpg"/>
+      <constructor-arg index="4" value = "60"/>
+   </bean>
+    <bean id = "product17" class = "com.clothes.models.Product">
+      <constructor-arg type = "int" value = "17"/>
+      <constructor-arg type = "java.lang.String" value = "Geansai"/>
+      <constructor-arg type = "java.lang.String" value = "Nice"/>
+     <constructor-arg type = "java.lang.String" value = "kid3.jpg"/>
+      <constructor-arg type = "double" value = "12"/>
+   </bean>
+    <bean id = "product18" class = "com.clothes.models.Product">
+      <constructor-arg type = "int" value = "18"/>
+      <constructor-arg type = "java.lang.String" value = "Zara"/>
+      <constructor-arg type = "java.lang.String" value = "Debenhams"/>
+     <constructor-arg type = "java.lang.String" value = "kid4.jpg"/>
+	 <constructor-arg type = "double" value = "30"/>   
+   </bean>
+    <bean id = "product19" class = "com.clothes.models.Product">
+      <constructor-arg type = "int" value = "19"/>
+      <constructor-arg type = "java.lang.String" value = "Brown Thomas"/>
+      <constructor-arg type = "java.lang.String" value = "Affordable"/>
+     <constructor-arg type = "java.lang.String" value = "kid5.jpg"/>
+      <constructor-arg type = "double" value = "19"/>
+   </bean>
+    <bean id = "product20" class = "com.clothes.models.Product">
+      <constructor-arg type = "int" value = "20"/>
+      <constructor-arg type = "java.lang.String" value = "Next"/>
+      <constructor-arg type = "java.lang.String" value = "Affordable"/>
+     <constructor-arg type = "java.lang.String" value = "kid6.jpg"/>
+      <constructor-arg type = "double" value = "14"/>
+   </bean>
+    <bean id = "product21" class = "com.clothes.models.Product">
+      <constructor-arg type = "int" value = "21"/>
+      <constructor-arg type = "java.lang.String" value = "Zara"/>
+      <constructor-arg type = "java.lang.String" value = "Affordable"/>
+     <constructor-arg type = "java.lang.String" value = "kid7.jpg"/>
+     <constructor-arg type = "double" value = "10"/>
+   </bean>
+   
+   
+</beans>
