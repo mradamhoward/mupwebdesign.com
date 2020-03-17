@@ -11,5 +11,31 @@
             "StackId": "arn:aws:cloudformation:eu-west-1:250286007225:stack/amplify-mwd-mwd-224059/449a1680-67d7-11ea-9eb5-0a51e14e7998",
             "AmplifyAppId": "d3ln6z7s6cgluh"
         }
+    },
+    "mwdtwo": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-mwd-mwdtwo-232439-authRole",
+            "UnauthRoleArn": "arn:aws:iam::250286007225:role/amplify-mwd-mwdtwo-232439-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::250286007225:role/amplify-mwd-mwdtwo-232439-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "amplify-mwd-mwdtwo-232439-deployment",
+            "UnauthRoleName": "amplify-mwd-mwdtwo-232439-unauthRole",
+            "StackName": "amplify-mwd-mwdtwo-232439",
+            "StackId": "arn:aws:cloudformation:eu-west-1:250286007225:stack/amplify-mwd-mwdtwo-232439/59ddc180-67dd-11ea-b86e-0609694b6370",
+            "AmplifyAppId": "d3ln6z7s6cgluh"
+        }
+    },
+    "mwdthree": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-mwd-mwdthree-234614-authRole",
+            "UnauthRoleArn": "arn:aws:iam::250286007225:role/amplify-mwd-mwdthree-234614-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::250286007225:role/amplify-mwd-mwdthree-234614-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "amplify-mwd-mwdthree-234614-deployment",
+            "UnauthRoleName": "amplify-mwd-mwdthree-234614-unauthRole",
+            "StackName": "amplify-mwd-mwdthree-234614",
+            "StackId": "arn:aws:cloudformation:eu-west-1:250286007225:stack/amplify-mwd-mwdthree-234614/61182910-67e0-11ea-94ec-062924358418",
+            "AmplifyAppId": "d3ln6z7s6cgluh"
+        }
     }
 }
